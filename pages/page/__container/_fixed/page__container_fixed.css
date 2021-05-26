@@ -1,0 +1,7 @@
+@media all and (min-width: 1441px) {
+    .page__container_fixed {
+        padding: 0;
+        width: 1344px;
+        margin: 0 auto;
+    }
+}
