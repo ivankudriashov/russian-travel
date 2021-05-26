@@ -1,0 +1,9 @@
+.header__lang-links {
+    margin-bottom: 6px;
+}
+
+@media all and (max-width: 767px) {
+    .header__lang-link {
+        margin-bottom: 8px;
+    }
+}
