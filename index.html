@@ -11,22 +11,41 @@
 </head>
 <body>
   <div class="page">
-    <header class="header header__container">
-      <img src="./logo/logo.svg" alt="Россия" class="header__logo">
-      <div class="header__lang-links">
-        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
-        <a href="#" class="header__lang-link">En</a>
+    <header class="header">
+      <div class="header__container">
+        <img src="./logo/logo.svg" alt="Россия" class="header__logo">
+        <div class="header__lang-links">
+          <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+          <a href="#" class="header__lang-link">En</a>
+        </div>
       </div>
     </header>
     <main class="content">
-      <section class="lead page__container page__container_narrow">
-        <h1 class="lead__title">Путешествия по России</h1>
-        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <div class="lead__wrapper">
-          <img src="./images/foto_header.jpg" alt="фото" class="lead__image">
-          <p class="lead__caption">ваша полка — верхняя</p>
+      <section class="lead">
+        <div class="lead__container">
+          <h1 class="lead__title">Путешествия по России</h1>
+          <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+          <div class="lead__wrapper">
+            <img src="./images/foto_header.jpg" alt="фото" class="lead__image">
+            <p class="lead__caption">ваша полка — верхняя</p>
+          </div>
         </div>
       </section>
+      <article class="intro page__block-centering">
+        <div class="intro__container">
+          <h3 class="intro__title">Чего мы там не видели?</h3>
+          <p class="intro__text">
+            По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
+          </p>
+          <ul class="intro__list">
+            <li class="intro__list-item">Часовых поясов <span class="intro__list-item intro__list-item_text-normal">11</span></li>
+            <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list-item intro__list-item_text-normal">12</span></li>
+            <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list-item intro__list-item_text-normal">16</span></li>
+            <li class="intro__list-item">Природных заповедников <span class="intro__list-item intro__list-item_text-normal">105</span></li>
+            <li class="intro__list-item">Аэропортов <span class="intro__list-item intro__list-item_text-normal">241</span></li>
+          </ul>
+        </div>
+      </article>
     </main>
   </div>
 </body>

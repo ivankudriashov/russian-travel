@@ -1,6 +1,7 @@
 @import url(../vender/normalize.css);
 @import url(../vender/fonts.css);
 @import url(../pages/page/page.css);
+@import url(../pages/page/__block-centering/page__block-centering.css);
 @import url(../pages/header/header.css);
 @import url(../pages/header/__container/header__container.css);
 @import url(../pages/header/__logo/header__logo.css);
@@ -14,3 +15,10 @@
 @import url(../pages/lead/__wrapper/lead__wrapper.css);
 @import url(../pages/lead/__image/lead__image.css);
 @import url(../pages/lead/__caption/lead__caption.css);
+@import url(../pages/intro/intro.css);
+@import url(../pages/intro/__container/intro__container.css);
+@import url(../pages/intro/__title/intro__title.css);
+@import url(../pages/intro/__text/intro__text.css);
+@import url(../pages/intro/__list/intro__list.css);
+@import url(../pages/intro/__list-item/intro__list-item.css);
+@import url(../pages/intro/__list-item/_text-normal/intro__list_text-normal.css);
