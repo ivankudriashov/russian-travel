@@ -1,13 +1,13 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    font-size: 0;
-    padding-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 0;
+  padding-top: 28px;
 }
 
 @media all and (max-width: 767px) {
-    .header {
-        padding-top: 16px;
-    }
+  .header {
+    padding-top: 16px;
+  }
 }
