@@ -1,6 +1,6 @@
 .grid-photo__wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(279px, 1fr));
   gap: 16px;
   padding: 0 48px;
   margin: 0;
