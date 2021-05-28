@@ -4,7 +4,13 @@
   line-height: 18px;
   color: #FFFFFF;
   text-decoration-line: none;
+  transition: all .6s;
 }
+
+.footer__link:hover {
+  opacity: 0.8;
+}
+
 
 @media all and (max-width: 767px) {
   .footer__link {

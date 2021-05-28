@@ -6,6 +6,7 @@
   color: #FFFFFF;
   width: 360px;
   margin: 0;
+  z-index: 5;
 }
 
 @media all and (max-width: 767px) {
