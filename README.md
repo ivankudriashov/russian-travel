@@ -15,4 +15,4 @@ HTML5, CSS3, Grid layout, Flex-box
 
 **Ссылка**
 
-https://ivankudriashov.github.io/russian-travel/
+https://ivankudriashov.github.io/russian-travel/index.html
