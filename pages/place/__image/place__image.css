@@ -1,9 +1,0 @@
-.place__image {
-  width: 100%;
-}
-
-@media all and (max-width: 559px) {
-  .place__image {
-    padding-bottom: 32px;
-  }
-}
